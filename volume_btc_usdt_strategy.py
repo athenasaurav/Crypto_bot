@@ -22,7 +22,7 @@ SOCKET = "wss://stream.binance.com:9443/ws/bnbusdt@kline_1m"
 closes = []
 volumes = []
 
-client = Client('usn8SSHYWylT6PX9DcTaU6P0C3rg5knzAQ5TOEOe4Rn6Vp9pnZc6P9D7BZ0fyhxq', 'PFjTSkC8gN6a0hIH698uOzQvRIZykv6kuGwrw4re78sykUaQApwkdi5rvZ73q78j')
+client = Client('your_api_key', 'your_api_secret')
 
 def on_open(ws):
     print('opened connection')
